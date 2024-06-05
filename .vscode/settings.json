@@ -1,0 +1,19 @@
+
+//! fazendo um aquivo json para ler alguns nomes que o VSC não reconhece. 
+{
+    "cSpell.words": [
+        //? Nomes de pessoas
+        "Giovanna",
+        "Shiguemori",
+        "Mayara",
+        "Ben",
+        "Riodades",
+
+        //! nomes no geral
+        "Colab",
+        "colab",
+        "Github",
+        "github",
+        "Kaggle"
+    ]
+}
