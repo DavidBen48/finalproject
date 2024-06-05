@@ -1,0 +1,41 @@
+!--- HEADER ---!
+Introduzindo o usuário, tendenciando-o a navegar pela página.
+Uma apresentação de Boas Vindas ao projeto.
+
+!--- SOBRE ---|
+Dirá um pouco sobre o projeto que foi feito por um desenvolvedor
+e 5 pessoas que ajudaram no designer da página e nos textos que nele tem.
+
+!--- EQUIPE DO PROJETO  ---!
+1. Ana Carolina
+2. Carina Mayara
+3. David Ben
+4. Giovanna Shiguemori
+5. Marcos Neves
+6. Rafael Souza
+
+!--- DOC - PROJETO FINAL  ---!
+> Google Cloud --->
+> Google Colab --->
+> Power BI ------->
+> Github --------->
+> Kaggle --------->
+> Doc Completo --->
+
+
+!--- NOSSA INSPIRAÇÃO ---!
+Uma breve homenagem a professora do curso Analise de Dados e Dashboards | SoulCode
+que foi mostrado como surpresa no dia da apresentação do projeto final ( 06/07/2024 ) 
+para mostrar nosso agradecimento pelo serviço prestado em nos ensinar com dedicação, amor 
+e principalmente com um profissionalismo impecável.
+
+
+!--- CONTATO + MAP ---!
+[DEMO][X] - Mostra algumas informações a parte do criador deste web site, aluno David Ben, que utilizou:
+HTML5, CSS3 & Javascript.
+
+[ COMPLETE ][] - as funções de mandar mensagem ainda não foram atribuídas para o modo funcional.
+Ainda está em fase teste. Sujeito a atualização no futuro.
+
+!--- RODAPÉ ---!
+* WebSite Created by: David Ben | Copyright - 2024 *

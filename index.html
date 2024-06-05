@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>DataBridge Solutions</title>
+  <meta name="title" content="DataBridge Solutions - Get your product identity from me.">
+  <meta name="description" content="Projeto feito para um TCC">
+
+  <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/font/font.css">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--!  preload images !-->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-1.png">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-2.png">
+</head>
+
+<body id="top">
+  <!--? PRELOADER ?-->
+  <div class="preloader" data-preloader>
+    <span class="line"></span>
+  </div>
+
+  <!--?  #HEADER  ?-->
+  <header class="header" data-header>
+    <div class="container">
+      <a href="#" class="logo">
+        <h2 class="h1 title" style="font-size: 30px;">
+          DataBridge Solutions
+        </h2>
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <h1 class="span title">
+              DB Solutions
+            </h1>
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <!--! navbar !-->
+        <ul class="navbar-list">
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+          <li>
+            <a href="#service" class="navbar-link" data-nav-link>Sobre</a>
+          </li>
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>Equipe</a>
+          </li>
+          <li>
+            <a href="#project" class="navbar-link" data-nav-link>Projeto</a>
+          </li>
+          <li>
+            <a href="#review" class="navbar-link" data-nav-link>Nossa Inspiração</a>
+          </li>
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contato</a>
+          </li>
+        </ul>
+      </nav>
+
+      <a href="#" class="btn btn:hover">
+        <span class="span">Tenha nossos Serviços</span>
+        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+      </a>
+
+      <button class="nav-open-btn btn:hover" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <div class="overlay" data-overlay data-nav-toggler></div>
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <!--? HERO ?-->
+      <div class="hero text-center" id="home">
+        <div class="container">
+          <div class="banner-outline has-after">
+
+            <div class="hero-banner img-holder has-after" style="--width: 800; --height: 800;" data-tilt>
+              <img src="./assets/images/Solutions.png" 
+              width="800" height="800" alt="Drew Hays" class="img-cover"
+              style="height: 400px;">
+            </div>
+
+            <span class="span title">DB Solutions</span>
+          </div>
+
+          <div class="hero-content">
+            <h1 class="h1 title" style="font-size: 50px" >Um projeto de Analise de Dados completo, 
+              desde a extração de dados até o deploy.<h1>
+                <div class="wrapper">
+                  <p class="h1 title" style="font-size: 30px">
+                    Currículo de toda a Equipe 
+                  </p> <i class="fa-solid fa-right-long right" style="font-size: 40px ;"></i>
+                <a href="#" class="btn btn:hover">
+                  <span class="span">Download</span>
+                <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+              </a>
+            </div>
+          </div>
+
+          <img src="./assets/images/hero-shape-1.png" width="559" height="232" alt="shape" class="shape shape-1">
+
+          <img src="./assets/images/hero-shape-2.png" width="1358" height="497" alt="shape" class="shape shape-2">
+        </div>
+      </div>
+
+      <!--? SERVICE ?-->
+      <section class="service text-center" aria-label="my services">
+        <div class="container">
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-card">
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-1.svg" width="80" height="80" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+                  <a href="#">
+                    Foco no <br>
+                    Futuro
+                  </a>
+                </h3>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-2.svg" width="80" height="80" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+                  <a href="#">
+                    Diversividade
+                  </a>
+                </h3>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-3.svg" width="80" height="80" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+                  <a href="#">
+                    Equipe com <br>
+                    Mulheres
+                  </a>
+                </h3>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-4.svg" width="80" height="80" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+                  <a href="#">
+                    Visão
+                  </a>
+                </h3>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="service">
+        <div>
+          <hr>
+          <blockquote 
+              class=
+                "title h4 section-text " 
+              style=
+              "font-size: 45px; display: flex; justify-content: center; height: 60vh; padding: 50px; 
+            ">
+            <p class="welcome" style="text-align: justify;">
+              Olá! Seja bem-vindo ao website desenvolvido pela equipe da DB Solutions, onde apresentamos nosso projeto final 
+              intitulado "Sales Analytics". Este projeto tem por objetivo analisar as vendas de um e-commerce que abrange 
+              três continentes e uma ampla variedade de produtos vendidos.
+            </p>
+
+            </blockquote>
+            <hr>
+        </div>
+      </section>
+
+      
+      <!--?  #ABOUT ?-->
+      <section class="section about" aria-label="about-me" id="about">
+        <div class="container">
+          
+          <blockquote 
+          class="title h4 section-text" 
+            style="font-size: 50px; padding-bottom: 20px; 
+            display: flex; justify-content: center;">
+              <i class="fa-regular fa-star object-left" style="padding-right: 20px;"></i> 
+                Equipe
+              <i class="fa-regular fa-star object-right" style="padding-left: 20px;"></i>
+          </blockquote>
+
+          <!--! equipe -->
+          <div class="tab-container">
+            <ul class="tab-btn-list">
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6 active" data-tab-btn="ana">Ana Riodades</button>
+              </li>
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="carine">Carina Santos</button>
+              </li>
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="david">David Ben</button>
+              </li>
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="gio">Giovanna Shiguemori</button>
+              </li>
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="marcos">Marcos Neves</button>
+              </li>
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="rafa">Rafael Souza</button>
+              </li>
+
+            </ul>
+
+            <!--? ANA CAROLINA ?-->
+            <div class="tab-content active" data-tab-content="ana">
+              <div class="grid-list">
+                <figure class="about-banner img-holder" style="--width: ; --height: ;" data-tilt>
+                  <img src="./assets/images/anacarolina1.jpeg" width="570" height="420" loading="lazy" alt="about banner"
+                    class="img-cover">
+                </figure>
+
+                <div class="about-content">
+                  <h2 class="h4 title section-title">
+                    Ana Carolina Riodades
+                  </h2>
+
+                  <p class="section-text">
+                    Ensino Superior completo em Pedagogia pela UNIRIO - Universidade Federal do Estado do Rio de Janeiro,
+                    Bootcamp de Analise de Dados e Dashboards - SoulCode Academy,
+                    Curso em andamento de PowerBI - Microsoft
+                  </p>
+                  <ul class="about-list">
+                    <li class="about-item">
+                      <p class="list-title">Idade</p>
+                      <span class="span title h5">40</span>
+                    </li>
+
+                    <li class="about-item">
+                      <p class="list-title">Telefone</p>
+                      <span class="span title h5">+55 21 9 9763 2711</span>
+                    </li>
+
+                    <li class="about-item">
+                      <p class="list-title">Email Pessoal</p>
+                      <span class="span title h5">carolriodades@gmail.com</span>
+                    </li>
+
+                    <li class="about-item">
+                      <p class="list-title">Mídias Sociais</p>
+                      <div class="social-list">
+                        <a href="" class="social-link h6" title="Linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" class="social-link h6" title="Discord"><i class="fa-brands fa-discord"></i></a>
+                        <a href="#" class="social-link h6" title="Github"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+                        <a href="#" class="social-link h6" title="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!--? CARINE ?-->
+            <div class="tab-content" data-tab-content="carine">
+              <div class="grid-list">
+                <figure class="about-banner img-holder" style="--width: ; --height: ;" data-tilt>
+                  <img src="./assets/images/cah.jpeg" width="570" height="420" loading="lazy" alt="about banner"
+                    class="img-cover">
+                </figure>
+
+                <div class="about-content">
+                  <h2 class="h4 title section-title">
+                    Carina Mayara Da Silva Santos
+                  </h2>
+
+                  <p class="section-text">
+                    Bacharel em Direito -  Universidade Carlos Drummond de Andrade. Bootcamp concluído em Analise de Dados e 
+                    Dashboards - SoulCode.
+                  </p>
+
+                  <ul class="about-list">
+                    <li class="about-item">
+                      <p class="list-title">Idade</p>
+                      <span class="span title h5">32</span>
+                    </li>
+
+                    <li class="about-item">
+                      <p class="list-title">Telefone</p>
+                      <span class="span title h5"></span>
+                    </li>
+
+                    <li class="about-item">
+                      <p class="list-title">Email Pessoal</p>
+                      <span class="span title h5">carina.mayara.3010@gmail.com</span>
+                    </li>
+
+                    <li class="about-item">
+                      <p class="list-title">Mídias Sociais</p>
+                      <div class="social-list">
+                        <a href=" www.linkedin.com/in/carina-santos-54849a115" class="social-link h6" title="Linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" class="social-link h6" title="Discord"><i class="fa-brands fa-discord"></i></a>
+                        <a href="https://github.com/carinamayara3010" class="social-link h6" title="Github"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+                        <a href="#" class="social-link h6" title="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!--? DAVID BEN ?-->
+            <div class="tab-content" data-tab-content="david">
+              <div class="grid-list">
+                <figure class="about-banner img-holder" style="--width: ; --height: ;" data-tilt>
+                  <img src="./assets/images/davizinho.png" width="570" height="420" loading="lazy" alt="about banner"
+                    class="img-cover">
+                </figure>
+                <div class="about-content">
+                  <h2 class="h4 title section-title">
+                    David Ben de Oliveira Vieira
+                  </h2>
+                  <p class="section-text">
+                      Ensino Superior em andamento no curso Analise e Desenvolvimento de Sistemas - UNESA.
+                      Bootcamp concluído em Analise de Dados e Dashboards - SoulCode.
+                      Bootcamp concluído em Full Stack Developer - EBAC.
+                      Bootcamp em andamento de Python Developer (Django, Pandas, PySpark, TDD).
+                      Bootcamp em andamento PL-900: Microsoft Power Platform Fundamentals.
+                  </p>
+                  <ul class="about-list" style="padding-top: 20px;">
+                    <li class="about-item">
+                      <p class="list-title">Idade</p>
+                      <span class="span title h5">23</span>
+                    </li>
+                    <li class="about-item">
+                      <p class="list-title">Número de Telefone</p>
+                      <span class="span title h5">+55 21 9 9480 8526</span>
+                    </li>
+                    <li class="about-item">
+                      <p class="list-title">Email Pessoal</p> 
+                      <span class="span title h5" style="padding-right: 20px;">davidpessoal616@gmail.com</span>
+                    </li>
+                    <li class="about-item">
+                      <p class="list-title">Mídias Sociais</p>
+                      <div class="social-list">
+                        <a href="https://www.linkedin.com/in/davidben81/" class="social-link h6" title="Linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" class="social-link h6" title="Discord"><i class="fa-brands fa-discord"></i></a>
+                        <a href="#" class="social-link h6" title="Github"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+                        <a href="#" class="social-link h6" title="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!--? GIOVANNA ?-->
+            <div class="tab-content" data-tab-content="gio">
+              <div class="grid-list">
+                <figure class="about-banner img-holder" style="--width: ; --height: ;" data-tilt>
+                  <img src="./assets/images/gio.jpeg" width="570" height="420" loading="lazy" alt="about banner"
+                    class="img-cover">
+                </figure>
+                <div class="about-content">
+                  <h2 class="h4 title section-title">
+                    Giovanna Shiguemori Barbosa
+                  </h2>
+                  <p class="section-text">
+                    Cursando Data Science - FIAP. Bootcamp concluído em Analise de Dados e Dashboards - Soulcode.
+                  </p>
+                  <ul class="about-list" style="padding-top: 20px;">
+                    <li class="about-item">
+                      <p class="list-title">Idade</p>
+                      <span class="span title h5">19</span>
+                    </li>
+                    <li class="about-item">
+                      <p class="list-title">Número de Telefone</p>
+                      <span class="span title h5">+55 11 9 8195 0083 </span>
+                    </li>
+                    <li class="about-item">
+                      <p class="list-title">Email Pessoal</p> 
+                      <span class="span title h5" style="padding-right: 20px;">giovannasb0904@gmail.com</span>
+                    </li>
+                    <li class="about-item">
+                      <p class="list-title">Mídias Sociais</p>
+                      <div class="social-list">
+                        <a href="https://www.linkedin.com/in/marcos-neves-9a77a12ba/" class="social-link h6" title="Linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="giovannashiguemori" class="social-link h6" title="Discord"><i class="fa-brands fa-discord"></i></a>
+                        <a href="#" class="social-link h6" title="Github"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/_giibarbosaa_/" class="social-link h6" title="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!--? MARCOS ?-->
+            <div class="tab-content" data-tab-content="marcos">
+              <div class="grid-list">
+                <figure class="about-banner img-holder" style="--width: ; --height: ;" data-tilt>
+                  <img src="./assets/images/marcos.jpeg" width="570" height="420" loading="lazy" alt="about banner"
+                    class="img-cover">
+                </figure>
+                <div class="about-content">
+                  <h2 class="h4 title section-title">
+                    Marcos Fabrício Teixeira de Almeida Neves
+                  </h2>
+                  <p class="section-text">
+                    Ex-Assessor Parlamentar por 15 anos na 
+                    Assembleia Legislativa do Estado De Minas Gerais.
+                    Graduando em Gestão de TI - Estácio. Bootcamp concluído em Analise de Dados e
+                    Dashboards - SoulCode.
+                  </p>
+                  <ul class="about-list" style="padding-top: 20px;">
+                    <li class="about-item">
+                      <p class="list-title">Idade</p>
+                      <span class="span title h5">39</span>
+                    </li>
+                    <li class="about-item">
+                      <p class="list-title">Número de Telefone</p>
+                      <span class="span title h5">+55 31 9 9994 7262</span>
+                    </li>
+                    <li class="about-item">
+                      <p class="list-title">Email Pessoal</p> 
+                      <span class="span title h5" style="padding-right: 20px;">nevesm5@gmail.com</span>
+                    </li>
+                    <li class="about-item">
+                      <p class="list-title">Mídias Sociais</p>
+                      <div class="social-list">
+                        <a href="https://www.linkedin.com/in/marcos-neves-9a77a12ba/" class="social-link h6" title="Linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" class="social-link h6" title="Discord"><i class="fa-brands fa-discord"></i></a>
+                        <a href="+5531999947262" class="social-link h6" title="Github"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+                        <a href="Sinistrãoo#6264" class="social-link h6" title="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!--? RAFAEL ?-->
+            <div class="tab-content" data-tab-content="rafa">
+              <div class="grid-list">
+                <figure class="about-banner img-holder" style="--width: ; --height: ;" data-tilt>
+                  <img src="./assets/images/rafa.jpeg" width="570" height="420" loading="lazy" alt="about banner"
+                    class="img-cover">
+                </figure>
+                <div class="about-content">
+                  <h2 class="h4 title section-title">
+                    Rafael Donizete Soares de Souza 
+                  </h2>
+                  <p class="section-text">
+                    Assistente em Tecnologia da Informação.
+                    Bootcamp concluído em Analise de Dados e Dashboards - SoulCode.
+                  </p>
+                  <ul class="about-list" style="padding-top: 20px;">
+                    <li class="about-item">
+                      <p class="list-title">Idade</p>
+                      <span class="span title h5">37</span>
+                    </li>
+                    <li class="about-item">
+                      <p class="list-title">Número de Telefone</p>
+                      <span class="span title h5">+55 35 9 9815 3261</span>
+                    </li>
+                    <li class="about-item">
+                      <p class="list-title">Email Pessoal</p> 
+                      <span class="span title h5" style="padding-right: 20px;">rafaelgamesandroid@gmail.com</span>
+                    </li>
+                    <li class="about-item">
+                      <p class="list-title">Mídias Sociais</p>
+                      <div class="social-list">
+                        <a href="https://www.linkedin.com/in/rafael-souza-768b8a2b9/?utm_source=share&utm_cam" class="social-link h6" title="Linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" class="social-link h6" title="Discord"><i class="fa-brands fa-discord"></i></a>
+                        <a href="#" class="social-link h6" title="Github"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+                        <a href="#" class="social-link h6" title="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--? PROJECTS ?-->
+      <section class="section project" aria-label="my latest projects" id="project">
+        <blockquote 
+          class="title h4 section-text" 
+          style="font-size: 50px; padding-bottom: 20px; 
+          display: flex; justify-content: center;">
+
+          <i class="fa-regular fa-star object-left" style="padding-right: 20px;"></i> 
+            Projeto Separado em Partes
+          <i class="fa-regular fa-star object-right" style="padding-left: 20px;"></i>
+
+          </blockquote>
+        <ul class="slider-list">
+          <li class="slider-item">
+            <div class="project-card text-center">
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/gcp.png" width="1000" height="763" loading="lazy"
+                  style="background-color: rgb(255, 255, 255);"
+                  alt="Project poster: Creative & experienced digital design studio" class="img-cover">
+                <a href="#" class="btn btn:hover">
+                  <span class="span">Acessar a BigQuery</span>
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+              <div class="card-content">
+                <p class="card-subtitle">
+                  GOOGLE CLOUD PLATFORM
+                </p>
+                <h3 class="title h3">
+                  <a href="#" class="card-title">
+                    Dados brutos e tratados na Nuvem.
+                  </a>
+                </h3>
+              </div>
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/gc.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Front End Development & Maintenance" class="img-cover">
+                <a href="#" class="btn btn:hover">
+                  <span class="span">Acessar a ETL no Google Colab</span>
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+              <div class="card-content">
+                <p class="card-subtitle">Python</p>
+                <h3 class="title h3">
+                  <a href="#" class="card-title">
+                    Códigos usados para tratar os dados.
+                  </a>
+                </h3>
+              </div>
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/pbi.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Flutter Framework & Warframe Design" class="img-cover">
+                <a href="#" class="btn btn:hover">
+                  <span class="span">Acessar o Dashboard no PowerBI</span>
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+              <div class="card-content">
+                <p class="card-subtitle">Power BI</p>
+                <h3 class="title h3">
+                  <a href="#" class="card-title">
+                    Dashboard para Visualização.
+                  </a>
+                </h3>
+              </div>
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/github.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Full Web Development Project With JavaScript" class="img-cover">
+                <a href="#" class="btn btn:hover">
+                  <span class="span">Acessar o Github do Projeto</span>
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+              <div class="card-content">
+                <p class="card-subtitle">Github</p>
+                <h3 class="title h3">
+                  <a href="#" class="card-title">
+                    Código do Website + documentação do projeto.
+                  </a>
+                </h3>
+              </div>
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/kaggle.jpg" width="1000" height="763" loading="lazy"
+                  alt="???" class="img-cover">
+                <a href="#" class="btn btn:hover">
+                  <span class="span">Acessar a Base de Dados</span>
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+              <div class="card-content">
+                <p class="card-subtitle">Kaggle</p>
+                <h3 class="title h3">
+                  <a href="#" class="card-title">Dados públicos usados para a criação do projeto.</a>
+                </h3>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!--? DOC ?-->
+      <section class="section cta" aria-label="work with me">
+        <div class="container">
+          <h2 class="title h2 section-title text-center">
+            Quer ver a documentação completa do Projeto Final?
+          </h2>
+
+          <a href="#" class="btn btn:hover">
+            <span class="span">Clique Aqui</span>
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+        </div>
+      </section>
+
+      <!--? #TESTIMONIALS ?-->
+      <section class="section testi" aria-label="what our client says" id="review">
+        <div class="container">
+          <div class="testi-content">
+            <blockquote class="title h4 section-text">
+              &ldquo;Tudo o que vocês fizerem, façam com o máximo de amor e carinho possível,
+              desde a documentação até a apresentação final.&rdquo;
+            </blockquote>
+
+            <div class="profile-card">
+              <figure class="card-banner img-holder" style="--width: 70; --height: 70;">
+                <img src="./assets/images/franciane.png" width="79" height="79" loading="lazy" alt="Alexis browni JR."
+                  class="img-cover"
+                  style="height: 70px;"
+                  >
+              </figure>
+
+              <div>
+                <p class="title h5 card-title">Franciane Rodrigues</p>
+
+                <p class="card-subtitle">Especialista em Data Science e Analytics</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!--? CONTATOS ?-->
+      <section class="section contact" aria-label="contact me" id="contact">
+        <div class="container">
+          <h2 class="title h2 section-title" style="font-size: 35px;">Entre em Contato</h2>
+          <h2 class="title h2 section-title" style="font-size: 40px;">Com o Desenvolvedor do Site</h2>
+
+          <div class="contact-content">
+            <form action="./index.html" method="post" class="contact-form">
+              <input type="text" name="name" placeholder="Full name" autocomplete="off" required class="input-field">
+
+              <input type="email" name="email_address" placeholder="Email address" autocomplete="off" required
+                class="input-field">
+
+              <input type="tel" name="phone" placeholder="Phone" autocomplete="off" class="input-field">
+
+              <textarea name="message" placeholder="Enter massges" required class="input-field"></textarea>
+
+              <button type="submit" class="btn btn:hover">
+                <span class="span">Enviar Mensagem</span>
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </button>
+            </form>
+
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d920.0700769353138!2d-43.346337371584966!3d-22.717820461646845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x996fcb140f8857%3A0xe727479813f00cca!2sR.%20Sueli%2C%205%20-%20Wona%2C%20Belford%20Roxo%20-%20RJ%2C%2026175-550!5e0!3m2!1sen!2sbr!4v1717177792178!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              width="600" height="450" style="border: 0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+            <ul class="contact-list">
+              <li class="contact-item">
+                <div class="item-icon">
+                  <img src="./assets/images/contact-icon-1.png" width="50" height="50" loading="lazy"
+                    alt="contact icon">
+                </div>
+                <div>
+                  <span class="title h6">+55 21 9 9480 8526</span>
+                </div>
+              </li>
+
+              <li class="contact-item">
+                <div class="item-icon">
+                  <img src="./assets/images/contact-icon-2.png" width="50" height="50" loading="lazy"
+                    alt="contact icon">
+                </div>
+                <div>
+                  <address class="title h6">
+                    CEP: 26 175 550
+                  </address>
+                  <address class="title h6">
+                    Belford Roxo - Rio de Janeiro | Brazil 
+                  </address>
+                </div>
+              </li>
+
+              <li class="contact-item">
+                <div class="item-icon">
+                  <img src="./assets/images/contact-icon-3.png" width="50" height="50" loading="lazy"
+                    alt="contact icon">
+                </div>
+
+                <div>
+                  <span class="title h6">davidpessoal616@gmail.com</span>
+                </div>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <!--? #FOOTER ?-->
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright" style="font-size: 30px;">
+        | WebSite Created by: David Ben | <i class="fa-regular fa-copyright" aria-hidden="true"></i>
+      </p>
+
+      <a href="#top" class="back-top-btn">
+        <span class="span">Voltar para o Topo</span>
+
+        <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+      </a>
+
+    </div>
+  </footer>
+
+  <!--? CUSTOM CURSOR ?-->
+  <div class="cursor-dot" data-cursor></div>
+  <div class="cursor-outline" data-cursor></div>
+
+  <script src="./assets/js/script.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
