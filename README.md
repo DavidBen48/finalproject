@@ -10,7 +10,7 @@ Google Colab:
 https://colab.research.google.com/drive/1p-Pb4X5XdMNzomY7_41lNaCvPxM8ivgy?usp=sharing
 ```
 
-Dashboard:
+Python/Google Colab:
 ```bash
 https://colab.research.google.com/drive/1p-Pb4X5XdMNzomY7_41lNaCvPxM8ivgy?usp=sharing#scrollTo=n13iJyE3VkfG
 ```
