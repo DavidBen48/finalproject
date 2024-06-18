@@ -22,9 +22,6 @@
 ```bash
 https://colab.research.google.com/drive/1p-Pb4X5XdMNzomY7_41lNaCvPxM8ivgy?usp=sharing
 ```
-  <h3>
-      Google Colab:
-  </h3>  
 
 ### > [Currículo de Toda a Equipe](https://github.com/user-attachments/files/15749590/Curriculos.-.Equipe.DB.Solutions-20240607T213731Z-001.zip)
 
